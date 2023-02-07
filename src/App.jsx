@@ -5,15 +5,15 @@ function App() {
   const [count, setCount] = useState(0)
 
   return ( 
-<div class="grid py-10 place-items-center h-screen w-screen ">
+<div class="grid py-5 px-5 place-items-center h-screen w-screen ">
 
   <div className="container grid grid-cols-12	h-full">
 
     <div className=" col-span-10 sm:col-span-11">
       <h1 className=" lg:text-9xl lg:leading-[6.5rem] md:text-8xl md:leading-[4.5rem] text-6xl leading-[3rem] font-medium text-start overscroll-contain">CREATIVE <br />DEVELOPER</h1>
     </div>
-    <div className=" col-span-2 sm:col-span-1 ">
-      <a className=" lg:text-2xl md:text-2xl font-medium text-end hover:overline items-center tracking-[12px]">About</a>
+    <div className=" col-span-2 sm:col-span-1">
+      <a className=" lg:text-2xl md:text-2xl font-medium hover:underline">About</a>
     </div>
 
     <div className="col-span-12 sm:col-span-12">
@@ -21,7 +21,7 @@ function App() {
     </div>
 
     <div className="  col-span-2 place-items-start h-50 ">
-        <img className='border border-black' src="/src/image/arrow.svg " alt="" />
+        <img className='' src="/src/image/arrow.svg " alt="" />
     </div>
     <div className=" col-span-10 h-50">
         <div className="col-span-7 h-50"></div>
