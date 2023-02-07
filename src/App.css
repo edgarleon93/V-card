@@ -4,4 +4,11 @@ body {
 
 a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+ {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
 }
